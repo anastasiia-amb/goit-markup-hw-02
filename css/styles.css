@@ -48,7 +48,8 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-nav .header-menu-link:hover .header-menu-link:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 .header-address {
@@ -65,7 +66,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-address .header-address-link:hover .header-address-link:focus {
+.header-address-link:hover,
+.header-address-link:focus {
   color: #404bbf;
 }
 /* #endregion header */
@@ -93,7 +95,8 @@ button {
   background-color: #4d5ae5;
 }
 
-.hero-btn:hover .hero-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 /* #endregion hero */
